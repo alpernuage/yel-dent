@@ -12,7 +12,7 @@
 * {
   margin: 0;
   padding: 0px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -21,15 +21,20 @@ body {
   color: #5a5a5a;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 
 p {
   padding: 0;
   margin-bottom: 12px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
@@ -37,7 +42,8 @@ p {
   margin-top: 10px;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -57,7 +63,7 @@ html, body {
 }
 
 .centered {
-  text-align: center
+  text-align: center;
 }
 
 .mt {
@@ -96,16 +102,18 @@ html, body {
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background: #2B2E31;
+  background: #2b2e31;
 }
 
 ::selection {
   color: #fff;
   text-shadow: none;
-  background: #2B2E31;
+  background: #2b2e31;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -117,17 +125,18 @@ a {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  -webkit-transition: background-color .4s linear, color .4s linear;
-  -moz-transition: background-color .4s linear, color .4s linear;
-  -o-transition: background-color .4s linear, color .4s linear;
-  -ms-transition: background-color .4s linear, color .4s linear;
-  transition: background-color .4s linear, color .4s linear;
+  -webkit-transition: background-color 0.4s linear, color 0.4s linear;
+  -moz-transition: background-color 0.4s linear, color 0.4s linear;
+  -o-transition: background-color 0.4s linear, color 0.4s linear;
+  -ms-transition: background-color 0.4s linear, color 0.4s linear;
+  transition: background-color 0.4s linear, color 0.4s linear;
   color: #1abc9c;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
-  color: #696E74;
+  color: #696e74;
 }
 
 /* FORM CONFIGURATION */
@@ -165,14 +174,14 @@ input {
   }
 }
 .btn-green {
-  background: #03C9A9;
+  background: #03c9a9;
   color: white;
   border-radius: 2px;
 }
 
 .btn-green:hover {
-  background: #1BBC9B;
-  color: white
+  background: #1bbc9b;
+  color: white;
 }
 
 /* HEADER SECTION */
@@ -197,12 +206,12 @@ input {
 
 #h h1 {
   font-weight: 900;
-  color: #03C9A9;
+  color: #03c9a9;
   font-size: 90px;
 }
 
 #h h2 {
-  color: #1BA39C;
+  color: #1ba39c;
 }
 
 @media (max-width: 768px) {
@@ -234,11 +243,11 @@ input {
 #w {
   padding-bottom: 50px;
   padding-top: 50px;
-  color: #bfbfbf
+  color: #bfbfbf;
 }
 
 #w i {
-  color: #D2527F;
+  color: #d2527f;
   margin-left: 5px;
   font-size: 16px;
 }
@@ -248,7 +257,7 @@ input {
 #g {
   padding-bottom: 50px;
   padding-top: 50px;
-  background: #03C9A9;
+  background: #03c9a9;
   min-height: 700px;
   color: white;
 }
@@ -267,7 +276,7 @@ input {
 /* Red Section */
 
 #r {
-  background: #F62459;
+  background: #f62459;
   padding-bottom: 50px;
   padding-top: 50px;
   min-height: 700px;
@@ -288,7 +297,7 @@ input {
 /* Blue Section */
 
 #b {
-  background: #19B5FE;
+  background: #19b5fe;
   padding-bottom: 50px;
   padding-top: 50px;
   min-height: 700px;
@@ -328,8 +337,8 @@ input {
   margin-bottom: 20px;
 }
 
-
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   padding: 10px 12px;
   border-radius: 0;
   box-shadow: none;
@@ -342,7 +351,7 @@ input {
 }
 
 .contact-form .form-send button {
-  background: #03C9A9;
+  background: #03c9a9;
   border: 0;
   padding: 14px 30px;
   color: #fff;
@@ -429,6 +438,13 @@ input {
   margin: 15px 0;
 }
 
+.actualite {
+  color: white;
+}
+
+.text-justify {
+  color: white;
+}
 /* Copyrights */
 
 #copyrights {
@@ -443,7 +459,7 @@ input {
 }
 
 #copyrights a {
-  color: #03C9A9;
+  color: #03c9a9;
 }
 
 .credits {
